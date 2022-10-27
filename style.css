@@ -33,3 +33,12 @@ img {
     /* DEBUG */
     height: 200px;
 }
+
+/* bs mod  */
+.input-group-text {
+
+    background-color: white;
+    border: 0px solid #ced4da;
+    border-radius: 0    
+
+  }
