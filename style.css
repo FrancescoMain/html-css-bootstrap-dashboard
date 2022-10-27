@@ -7,7 +7,9 @@
 }
  
 a{
+
     text-decoration: none;
+
 }
 
 img {
@@ -17,3 +19,17 @@ img {
 }
 
 
+.ms_side {
+
+    background-color: #0f263d;
+    height: 100vh;
+
+}
+
+
+.ms_topbody {
+
+    background-color:#1b72e8;
+    /* DEBUG */
+    height: 200px;
+}
