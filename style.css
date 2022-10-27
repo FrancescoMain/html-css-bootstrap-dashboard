@@ -194,6 +194,13 @@ p {
 
 }
 
+.ms_checkcontainers{
+    margin: 20px;
+    border: 2px solid  #ced4da;
+    border-radius: 20px;
+
+}
+
 /* bs mod  */
 form .input-group-text {
 
