@@ -48,6 +48,11 @@ img {
 
 }
 
+.dropdown-menu[data-bs-popper] {
+    top: 126%;
+    left: -357%; 
+}
+
 /* sidebar  */
 
 .ms_text_margin {
@@ -61,6 +66,24 @@ img {
 
     position: absolute;
     bottom: 0;
+
+}
+
+.btn-secondary {
+
+    background-color: white;
+    border: none;
+
+}
+
+.fa-bell {
+
+    color: #ff8f00;
+
+}
+
+.dropdown-toggle::after {
+    display: none;
 
 }
 /* main cont  */
@@ -142,6 +165,35 @@ img {
 
 }
 
+/* list  */
+.ms_list_container {
+
+    border: 2px solid #dad9d9;
+    border-radius: 10px;
+}
+
+.ms_list_btn{
+
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ms_bb_list {
+    border-bottom: 2px solid #dad9d9;
+    
+}
+
+p {
+
+    margin: 0;
+
+}
+
 /* bs mod  */
 form .input-group-text {
 
@@ -152,8 +204,7 @@ form .input-group-text {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
-
-  }
+}
 
   .form-control {
     border: none;

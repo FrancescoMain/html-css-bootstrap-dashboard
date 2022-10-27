@@ -39,7 +39,16 @@
                     </li>
                 </ul>
             </div>
-            <span class="input-group-text ms_input-group-text" id="basic-addon1"><i class="fa-solid fa-bell"></i></span>
+            <div class="dropdown  ms_input-group-text">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
         </div>
     </nav>
     <!-- container -->
@@ -90,10 +99,8 @@
                     </div>
                 </div>
 
-
-
-                <!-- table  -->
                 <div class="row row-cols-1 row-cols-lg-2">
+                    <!-- table  -->
                     <div class="col col-lg-8 mt-3   ">
                         <div class="ms_table_container">
                             <div class="d-flex justify-content-between ms_bb p-2">
@@ -152,7 +159,7 @@
                                         <td class="text-center">
                                             <button type="button" class="btn btn-warning ms_table_btn">Process</button>
                                         </td>
-                                                                                <td class="text-center">
+                                        <td class="text-center">
                                             <i class="fa-solid fa-pen"></i>
                                             <i class="fa-solid fa-trash"></i>
                                         </td>
@@ -164,7 +171,7 @@
                                         <td class="text-center">
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
-                                                                                <td class="text-center">
+                                       <td class="text-center">
                                             <i class="fa-solid fa-pen"></i>
                                             <i class="fa-solid fa-trash"></i>
                                         </td>
@@ -188,7 +195,7 @@
                                         <td class="text-center">
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
-                                                                                <td class="text-center">
+                                        <td class="text-center">
                                             <i class="fa-solid fa-pen"></i>
                                             <i class="fa-solid fa-trash"></i>
                                         </td>
@@ -212,7 +219,7 @@
                                         <td class="text-center">
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
-                                                                                <td class="text-center">
+                                        <td class="text-center">
                                             <i class="fa-solid fa-pen"></i>
                                             <i class="fa-solid fa-trash"></i>
                                         </td>
@@ -220,63 +227,72 @@
                                 </tbody>
                             </table>
                         </div>
-
-
-                          <p>
-                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                              Link with href
-                            </a>
-                          </p>
-                          <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        <!-- list -->
+                        <div class="ms_list_container mt-4">
+                            <div class="ms_bb p-2">
+                                <h2 class="p-1">F.A.Q.</h2>                   
+                            </div>    
+                            <p>
+                                <a class="btn btn-primary text-start p-4 ms_list_btn ms_bb_list" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <span>Come aggiungere una nuova classe?</span> 
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
                             </div>
-                          </div>
-                          <p>
-                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                              Link with href
-                            </a>
-                          </p>
-                          <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <p>
+                                <a class="btn btn-primary text-start p-4 ms_list_btn ms_bb_list" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <span>Come posso accedere alle informazioni del mio account?</span> 
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </p>
+                                <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body">
+                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            <p>
+                                    
+                                <a class="btn btn-primary text-start p-4 ms_list_btn" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <span>Posso usare questa dashboard da mobile?</span> 
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body">
+                                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
                             </div>
-                          </div>
-                          <p>
-                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                              Link with href
-                            </a>
-                          </p>
-                          <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col col-lg-4">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              Default checkbox
-                            </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label" for="flexCheckChecked">
+                    </div>
+                <div class="col col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
                               Checked checkbox
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              Default checkbox
-                            </label>
-                        </div>
-
-                        <div>
-                            <img src="img/cO2gvTs.png" alt="">
-                        </div>
+                        </label>
                     </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                              Default checkbox
+                        </label>
+                    </div>
+
+                    <div>
+                        <img src="img/cO2gvTs.png" alt="">
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
