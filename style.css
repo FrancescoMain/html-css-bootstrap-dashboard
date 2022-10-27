@@ -88,6 +88,59 @@ img {
     font-size:0.8rem;
 }
 
+.ms_plus {
+
+    background-color: #f7f7f7;  
+    color: #0d6efd;
+
+}
+
+/* table  */
+
+.ms_table_container {
+
+    border: 2px solid #dad9d9;
+    border-radius: 10px;
+
+}
+
+.ms_bb {
+
+    border-bottom: 2px solid #dad9d9;
+    background-color: #f7f7f7;
+}
+
+.fa-code {
+
+    background-color: #f16450;
+    color: white;
+    border-radius: 100%;
+    padding: 6px;
+    height: 25px;
+}
+
+.th {
+
+    width: 40%;;
+
+}
+
+.ms_table_btn {
+
+    font-size: 0.6rem;
+    padding: 2px 5px;
+    color: white;
+
+} 
+
+.fa-trash, .fa-pen {
+
+    border: 2px solid #6c747c;
+    color: #6c747c;
+    padding: 4px;
+    border-radius: 5px;
+
+}
 
 /* bs mod  */
 form .input-group-text {
@@ -124,6 +177,12 @@ form .input-group-text {
   .navbar-nav {
 
     margin-left: 10px;
+
+  }
+
+  table {
+
+    font-size: 0.8rem;
 
   }
 
