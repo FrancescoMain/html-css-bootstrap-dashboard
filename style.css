@@ -22,7 +22,6 @@ img {
 .ms_side {
 
     background-color: #0f263d;
-    height: 100vh;
 
 }
 
@@ -38,7 +37,7 @@ img {
 
 .ms_logo_container {
 
-    width: 35px;
+    width: 30px;
 
 }
 
@@ -57,6 +56,29 @@ img {
     font-size: 0.7rem;
 
 }
+
+.ms_fixed_bot {
+
+    position: absolute;
+    bottom: 0;
+
+}
+/* main cont  */
+
+.ms_main_container {
+
+    height: calc(100vh - 46px);
+    overflow: auto;
+
+} 
+
+.ms_height{
+
+    height: calc(100vh - 58.5px);
+    overflow: hidden;
+
+}
+
 
 /* bs mod  */
 form .input-group-text {
