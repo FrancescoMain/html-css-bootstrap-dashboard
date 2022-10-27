@@ -22,6 +22,7 @@ img {
 .ms_side {
 
     background-color: #0f263d;
+    width: 80px;
 
 }
 
@@ -29,8 +30,7 @@ img {
 .ms_topbody {
 
     background-color:#1b72e8;
-    /* DEBUG */
-    height: 200px;
+
 }
 
 /* nav  */
@@ -77,6 +77,15 @@ img {
     height: calc(100vh - 58.5px);
     overflow: hidden;
 
+}
+
+.ms_button {
+
+    background-color: #165bba;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:0.8rem;
 }
 
 
@@ -130,5 +139,11 @@ form .input-group-text {
 
         display: none;
 
+    }
+
+    .ms_side {
+
+        width: 120px;
+    
     }
   }
