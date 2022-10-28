@@ -290,3 +290,25 @@ form .input-group-text {
         max-width: 300px;
     }
 }
+
+@media all and (max-width: 600px) {
+
+    .none_md {
+
+        display: none;
+
+    }
+
+  
+}
+
+@media all and (max-width: 400px) {
+
+    .none_xs {
+
+        display: none;
+
+    }
+
+  
+}
