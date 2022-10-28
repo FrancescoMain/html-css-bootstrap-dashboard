@@ -44,9 +44,9 @@
                     <i class="fa-solid fa-bell"></i>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
                 </ul>
               </div>
         </div>
@@ -57,23 +57,31 @@
             <!-- side bar  -->
             <div class="ms_side d-flex flex-column justify-content-between">
                 <div class="container">             
-                    <div class="mt-3 d-flex justify-content-center align-items-center text-white">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="none ms_text_margin">Home</span>
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-primary ms_navbut">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="none ms_text_margin">Home</span>
+                        </button>
                     </div>
-                    <div class="mt-3 d-flex justify-content-center align-items-center text-white">
-                        <i class="fa-solid fa-chart-simple"></i>
-                        <span class="none ms_text_margin">Stats</span>
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-primary ms_navbut">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="none ms_text_margin">Stats</span>
+                        </button>
                     </div>
-                    <div class="mt-3 d-flex justify-content-center align-items-center text-white">
-                        <i class="fa-solid fa-signal"></i>
-                        <span class="none ms_text_margin">Signal</span>
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-primary ms_navbut">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="none ms_text_margin">Signal</span>
+                        </button>
                     </div>
                 </div>
                 <div class="container">
-                    <div class="mt-3 d-flex justify-content-center align-items-center text-white mb-4">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="none ms_text_margin">Admin</span>
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-primary ms_navbut mb-4">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="none ms_text_margin">Admin</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -95,7 +103,7 @@
                     </div>
                     <div class="col col-lg-4 py-3 text-white">
                         <h5>Studenti online negli ultimi 20 minuti</h5>
-                        <h5>1232138</h5>
+                        <h5>125</h5>
                     </div>
                 </div>
 
@@ -109,15 +117,27 @@
 
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
-                                        ...
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="Nome" class="form-label">Nome</label>
+                                              <input type="text" class="form-control" id="Nome" aria-describedby="emailHelp pl" placeholder="Classe --">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="reset" class="btn btn-warning">Reset</button>
+
+                                          </form>
                                     </div>
                                 </div>                             
                             </div>
-                            <table class="table">
+                            <table class="table table-hover">
                                 <thead>
                                     <tr>
                                         <th scope="col" class="th">Nome</th>
@@ -136,8 +156,12 @@
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+
                                         </td>
                                     </tr>
                                     <tr>
@@ -148,8 +172,11 @@
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -160,8 +187,11 @@
                                             <button type="button" class="btn btn-warning ms_table_btn">Process</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -172,8 +202,11 @@
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
                                        <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
+                                        <button type="button" class="btn btn-success ms_table_btn-tresh">      
                                             <i class="fa-solid fa-trash"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                        </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -184,8 +217,11 @@
                                             <button type="button" class="btn btn-danger ms_table_btn">Failed</button>
                                         </td class="text-center">
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -196,8 +232,11 @@
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -208,8 +247,11 @@
                                             <button type="button" class="btn btn-danger ms_table_btn">Failed</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -220,8 +262,11 @@
                                             <button type="button" class="btn btn-success ms_table_btn">Done</button>
                                         </td>
                                         <td class="text-center">
-                                            <i class="fa-solid fa-pen"></i>
-                                            <i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">      
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-success ms_table_btn-tresh">                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -296,17 +341,30 @@
                                       Default checkbox
                                     </label>
                                 </div>
+                            </div>                          
+                        </div>
+                        <div class="ms_list_container mt-4">
+                            <div class="ms_bb p-2">
+                                <div class="ms_graph">
+                                    <img src="img/cO2gvTs.png" alt="">
+                                </div>                               
+                                <h2 class="p-1 pt-5">Utenti attivi</h2>  
+                                <h5>Lista degli utenti attivi in piattaforma nell'ultimo mese.</h5>                 
+                            </div>    
+                            <div class="ms_bb_list p-3">
+                                <h5>Gennaio: 1200</h5>
                             </div>
-                            
-                              
-                              
-                              
+                            <div class="ms_bb_list p-3">
+                                <h5>Gennaio: 1200</h5>
+                            </div>
+                            <div class="ms_bb_list p-3">
+                                <h5>Gennaio: 1200</h5>
+                            </div>
+                            <div class="p-3">
+                                <a href="">Visualizza report approfondito</a>
+                            </div>
                         </div>
 
-
-                        <div>
-                            <img src="img/cO2gvTs.png" alt="">
-                        </div>
                     </div>
                 </div>
             </div>
